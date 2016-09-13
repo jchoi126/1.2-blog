@@ -1,5 +1,6 @@
 .octodex{
 /*   border: 1px solid green; */
+  position: absolute;
 }
 
 .octocat{
@@ -16,7 +17,7 @@
 .octocat img{
   float: left;
   width: 100%;
-  border: 1px solid grey;
+  border: 1px solid #cacaca;
   border-radius: 4px
 }
 
@@ -29,7 +30,7 @@
   font-family: Helvetica;
 	color: grey;
 	font-size:14px;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #cacaca;
   position: relative;
 }
 
