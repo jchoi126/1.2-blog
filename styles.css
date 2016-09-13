@@ -1,0 +1,87 @@
+.octodex{
+/*   border: 1px solid green; */
+}
+
+.octocat{
+}
+
+.octocat{
+  display: inline-block;
+  width: 400px;
+/*   border: 1px solid grey; */
+  float: left;
+  margin: 10px;
+}
+
+.octocat img{
+  float: left;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 4px
+}
+
+.image-footer{
+/*   border: 1px solid red; */
+  margin: 0px 0px 0px 0px;
+  padding: 12px 1px 10px 1px;
+  width: 100%;
+  display: inline-block;
+  font-family: Helvetica;
+	color: grey;
+	font-size:14px;
+  border-bottom: 1px solid grey;
+  position: relative;
+}
+
+.image-footer:before{
+  content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-top-color: #cacaca;
+    position: absolute;
+    right: 13px;
+    top: 0;
+}
+
+/* http://stackoverflow.com/questions/2789703/remove-stubborn-underline-from-link */
+a {
+  style: none;
+  color: #333333;
+  text-decoration: none
+}
+
+.image-caption{
+  float: right;
+  display: inline-block;
+}
+
+.image-number{
+  margin-top: 11px;
+  display: inline-block;
+  color: a9a9a9;
+  font-family: Helvetica;
+}
+
+/* http://stackoverflow.com/questions/2741312/using-css-to-insert-text */
+.image-number:before {
+  content: "#";
+}
+
+.authors img{
+  max-width: 40px;
+  max-height: 40px;
+  float: right;
+  border: none;
+}
+
+.authors{
+  display: inline-block;
+  list-style: none;
+  padding: 0 0 0 0;
+}
+
+.image-number, .image-caption, .authors {
+  vertical-align: middle;
+}
